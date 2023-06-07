@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container>span{
+    color: var(--themeRed);
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+
+}
+
+.logo>span{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.social>*{
+    fill: var(--themeRed);
+}
